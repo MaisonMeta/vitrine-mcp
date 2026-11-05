@@ -1,0 +1,30 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "fashion.vitrine/trend-index",
+  "title": "Vitrine: Trending Fashion, Luxury, Sneakers & Design",
+  "description": "Trend-ranked fashion, sneakers and interior for shopping agents: outfits, sizes, brands. Free key.",
+  "version": "1.2.1",
+  "websiteUrl": "https://vitrine.fashion",
+  "icons": [
+    {
+      "src": "https://vitrine.fashion/static/icon-v-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    },
+    {
+      "src": "https://vitrine.fashion/static/icon-v.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://vitrine.fashion/mcp"
+    }
+  ]
+}

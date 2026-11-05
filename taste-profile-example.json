@@ -1,0 +1,12 @@
+{
+  "query": "a bag for work that is not a logo bag",
+  "filters": { "category": "accessories", "max_price": 1000, "ship_to": "GB" },
+  "taste_profile": {
+    "style_tags": ["minimal", "quiet luxury", "polished"],
+    "preferred_colors": ["brown", "chocolate", "black"],
+    "avoided_colors": ["red"],
+    "price_comfort": { "min": 300, "max": 900 }
+  },
+  "limit": 5,
+  "agent": { "name": "my-shopping-agent", "version": "0.1", "session_id": "s-2f9c", "locale": "en-GB" }
+}

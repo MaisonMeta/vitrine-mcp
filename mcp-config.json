@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "vitrine": {
+      "type": "http",
+      "url": "https://vitrine.fashion/mcp",
+      "headers": { "Authorization": "Bearer YOUR_VITRINE_KEY" }
+    }
+  }
+}
